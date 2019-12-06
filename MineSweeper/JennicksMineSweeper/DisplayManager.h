@@ -4,9 +4,11 @@
 #include "GridPosition.h"
 
 class DisplayManager {
-friend class GridPosition;
-friend class Mine;
-friend class Safespot;
+    friend class GridPosition;
+    friend class Mine;
+    friend class SafeSpot;
+    friend class NumberedSpot;
+    friend class EmptySpot;
 
 private:
     static std::vector<GridPosition*> updated_positions;

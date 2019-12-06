@@ -98,12 +98,14 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="EmptySpot.cpp"/>
+    <File Name="EmptySpot.h"/>
+    <File Name="NumberedSpot.cpp"/>
+    <File Name="NumberedSpot.h"/>
     <File Name="DisplayManager.cpp"/>
     <File Name="DisplayManager.h"/>
     <File Name="GridPosition.cpp"/>
     <File Name="GridPosition.h"/>
-    <File Name="SafeSpot.cpp"/>
-    <File Name="SafeSpot.h"/>
     <File Name="Mine.cpp"/>
     <File Name="Mine.h"/>
     <File Name="MineField.cpp"/>

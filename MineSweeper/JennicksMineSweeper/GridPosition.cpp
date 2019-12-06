@@ -1,6 +1,7 @@
 #include "GridPosition.h"
 #include "DisplayManager.h"
 
+
 bool GridPosition::flag() {
     bool changed {false};
     if (this->vis == GridPosition::flagged) {
@@ -13,6 +14,7 @@ bool GridPosition::flag() {
     if (changed) {
         DisplayManager::display_position(this);
     }
+    return changed;
 }
 
 bool GridPosition::question() {
@@ -27,20 +29,21 @@ bool GridPosition::question() {
     if (changed) {
         DisplayManager::display_position(this);
     }
+    return changed;
 }
 
 GridPosition::visibility GridPosition::get_visibility() {
     return this->vis;
 }
 
-GridPosition::get_coords() {
+std::pair<int, int> GridPosition::get_coords() {
     return std::pair {this->x, this->y};
 }
 
-GridPosition::get_x() {
+int GridPosition::get_x() {
     return this->x;
 }
 
-GridPosition::get_y() {
+int GridPosition::get_y() {
     return this->y;
 }
