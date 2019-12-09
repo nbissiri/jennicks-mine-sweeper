@@ -1,0 +1,12 @@
+.codelite/*
+Debug/*
+Release/*
+compile_commands.json
+Makefile
+compile_flags.txt
+*.mk
+*.o
+*.exe
+*.session
+*.workspace
+*.tags
