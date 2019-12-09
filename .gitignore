@@ -1,6 +1,6 @@
-.codelite/*
-Debug/*
-Release/*
+.codelite/
+Debug/
+Release/
 compile_commands.json
 Makefile
 compile_flags.txt
