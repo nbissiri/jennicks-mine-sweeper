@@ -1,1 +1,1 @@
-./Debug/MineField.cpp.o ./Debug/Mine.cpp.o ./Debug/main.cpp.o ./Debug/DisplayManager.cpp.o ./Debug/SafeSpot.cpp.o ./Debug/GridPosition.cpp.o   
+./Debug/main.cpp.o ./Debug/MineField.cpp.o ./Debug/Mine.cpp.o ./Debug/GridPosition.cpp.o ./Debug/DisplayManager.cpp.o ./Debug/EmptySpot.cpp.o ./Debug/NumberedSpot.cpp.o   

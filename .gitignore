@@ -4,6 +4,7 @@ Release/
 compile_commands.json
 Makefile
 compile_flags.txt
+JennicksMineSweeper.txt
 *.mk
 *.o
 *.exe
