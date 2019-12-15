@@ -98,6 +98,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="JennsClass.cpp"/>
+    <File Name="JennsClass.h"/>
     <File Name="problem2.h"/>
     <File Name="problem2.cpp"/>
     <File Name="main.cpp"/>

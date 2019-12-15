@@ -8,7 +8,7 @@ int main() {
      * Problem 1: Using Git in the Codelite IDE
      * -~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~- */
      
-    std::string message {"Hello Jenn!"};
+    std::string message {"Hello Nick!"};
     std::cout << message << std::endl;
     
     /* -~*~--~*~--~*~--~*~--~*~--~*~--~*~--~*~- */
