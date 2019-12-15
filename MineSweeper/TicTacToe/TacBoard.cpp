@@ -11,18 +11,25 @@ TacBoard::TacBoard() {
 
 }
 
-// get_position(x,y) returns a reference to a TacBoard (denoted with the '&')
+// get_card(x,y) returns a reference to a Card (denoted with the '&')
 // While implementing the body of the function you don't need to worry about
-// this detail. Just find and return the GridPosition at the given indices.
+// this detail. Just find and return the Card at the given index.
 // Simply including the '&' will cause the returned value to be a reference
-// to it's original in your TacBoard, meaning changes to it are changes
+// to its original in your TacBoard, meaning changes to it are changes
 // to the original too.
 Card &TacBoard::get_card(size_t x, size_t y) {
     
     // these two lines are placeholders -------------
     // delete them before implementing this function-
+<<<<<<< Updated upstream
         Card *gp = new Card(0, 0);
         return *gp;
+=======
+      
+    
+        
+      
+>>>>>>> Stashed changes
     // ----------------------------------------------
 }
 
