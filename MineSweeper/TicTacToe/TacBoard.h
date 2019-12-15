@@ -12,6 +12,7 @@
 
 /*
     TacBoard defines the 3x3 grid on which a game of TicTacToe is played
+    It contains 9 Cards, one at each position.
 */
 class TacBoard
 {
@@ -22,7 +23,7 @@ private:
     vector<vector<Card>> allCards;
     // ** ------------------------------------------------------- **
 public:
-    // constructs a 3x3 TacBoard with GridPositions at every index from
+    // constructs a 3x3 TacBoard with Cards at every index from
     // 0,0 to 2,2
     TacBoard();
     
