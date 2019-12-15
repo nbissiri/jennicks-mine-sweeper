@@ -1,7 +1,7 @@
 #include <iostream>
 #include "DisplayManager.h"
 #include "TacBoard.h"
-#include "GridPosition.h"
+#include "Card.h"
 using namespace std;
 
 void clear_screen() {
@@ -31,7 +31,7 @@ int evaluate(TacBoard b) {
         for (size_t j{0}; j < 3; j++) {
             size_t x {rows[i][j][0]};
             size_t y {rows[i][j][1]};
-            GridPosition p = b.get_position(x, y);
+            Card p = b.get_card(x, y);
             int p_player = p.get_player();
             if (p_player == 0) {
                 draw = false;
@@ -86,7 +86,7 @@ int main() {
             int x, y;
             input(x, y, player);
             // process the input
-            GridPosition &pos = b.get_position(x, y);
+            Card &pos = b.get_card(x, y);
             marked = pos.mark(player, c);
             if (!marked) {
                 cout << "That position is already marked, choose another!" << endl << endl;

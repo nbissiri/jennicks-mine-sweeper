@@ -17,11 +17,11 @@ TacBoard::TacBoard() {
 // Simply including the '&' will cause the returned value to be a reference
 // to it's original in your TacBoard, meaning changes to it are changes
 // to the original too.
-GridPosition &TacBoard::get_position(size_t x, size_t y) {
+Card &TacBoard::get_card(size_t x, size_t y) {
     
     // these two lines are placeholders -------------
     // delete them before implementing this function-
-        GridPosition *gp = new GridPosition(0, 0);
+        Card *gp = new Card(0, 0);
         return *gp;
     // ----------------------------------------------
 }

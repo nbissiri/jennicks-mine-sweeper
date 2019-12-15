@@ -98,10 +98,10 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="Card.cpp"/>
+    <File Name="Card.h"/>
     <File Name="TacBoard.cpp"/>
     <File Name="TacBoard.h"/>
-    <File Name="GridPosition.cpp"/>
-    <File Name="GridPosition.h"/>
     <File Name="DisplayManager.cpp"/>
     <File Name="DisplayManager.h"/>
     <File Name="main.cpp"/>

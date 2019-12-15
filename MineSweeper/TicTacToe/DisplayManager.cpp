@@ -16,7 +16,7 @@ static size_t y_table[] {0, 2, 4}; // y index to display at
 static size_t line_length = 12; // number of characters per line
 
 void DisplayManager::update_view() {
-    for (GridPosition *p : updated_positions) {
+    for (Card *p : updated_positions) {
         size_t x {p->get_x()};
         size_t y {p->get_y()};
         char c {p->get_c()};
@@ -28,9 +28,9 @@ void DisplayManager::update_view() {
     cout << endl << display_string << endl;
 }
 
-void DisplayManager::display_position(GridPosition *p) {
+void DisplayManager::display_position(Card *p) {
     DisplayManager::updated_positions.push_back(p);
 }
 
-vector<GridPosition*> DisplayManager::updated_positions {};
+vector<Card*> DisplayManager::updated_positions {};
 

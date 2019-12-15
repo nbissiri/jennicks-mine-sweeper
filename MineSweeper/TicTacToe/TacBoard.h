@@ -1,6 +1,6 @@
 #ifndef TACBOARD_H
 #define TACBOARD_H
-#include "GridPosition.h"
+#include "Card.h"
 // Note: Because this is a header file, we will not call 'using namespace std'
 // here because this is a header file, and invoking that rule could cause
 // problems in other files. Feel free to use it in TacBoard.cpp if you wish.
@@ -26,7 +26,7 @@ public:
     TacBoard();
     
     // returns the position at the x, y coordinates
-    GridPosition &get_position(size_t x, size_t y);
+    Card &get_card(size_t x, size_t y);
 };
 
 #endif // TACBOARD_H
