@@ -8,7 +8,13 @@
 // Recall that a constructor is called when an object of this class is
 // initialized. Use this time to initialize your private data member(s).
 TacBoard::TacBoard() {
-
+    
+    for(size_t i {0}; i < 3; i++) {
+        vector<Card> cards;
+        for (size_t j {0}; j < 3; j++) {
+             cards.at(j) = Card{
+        }
+    }
 }
 
 // get_card(x,y) returns a reference to a Card (denoted with the '&')
@@ -21,15 +27,9 @@ Card &TacBoard::get_card(size_t x, size_t y) {
     
     // these two lines are placeholders -------------
     // delete them before implementing this function-
-<<<<<<< Updated upstream
-        Card *gp = new Card(0, 0);
-        return *gp;
-=======
-      
-    
-        
-      
->>>>>>> Stashed changes
+
+
+
     // ----------------------------------------------
 }
 
