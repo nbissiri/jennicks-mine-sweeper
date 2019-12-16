@@ -20,7 +20,7 @@ private:
     // ** Declare any private data members you want to use here!  **
     // ** This should include the container(s) for your grid      **
     // ** You'll still need to initialize them in the constructor **
-    vector<vector<Card>> allCards;
+    std::vector<std::vector<Card>> allCards;
     // ** ------------------------------------------------------- **
 public:
     // constructs a 3x3 TacBoard with Cards at every index from
