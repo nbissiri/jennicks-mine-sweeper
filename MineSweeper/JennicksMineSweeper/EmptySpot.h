@@ -1,8 +1,8 @@
 #ifndef EMPTYSPOT_H
 #define EMPTYSPOT_H
-#include "GridPosition.h"
+#include "Tile.h"
 
-class EmptySpot : public GridPosition
+class EmptySpot : public Tile
 {
 public:
     EmptySpot();

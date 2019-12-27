@@ -1,18 +1,18 @@
 #ifndef DISPLAYMANAGER_H
 #define DISPLAYMANAGER_H
 #include <vector>
-#include "GridPosition.h"
+#include "Tile.h"
 
 class DisplayManager {
-    friend class GridPosition;
+    friend class Tile;
     friend class Mine;
     friend class SafeSpot;
     friend class NumberedSpot;
     friend class EmptySpot;
 
 private:
-    static std::vector<GridPosition*> updated_positions;
-    static void display_position(GridPosition* p);
+    static std::vector<Tile*> updated_positions;
+    static void display_position(Tile* p);
 public:
     static void update_view();
 };

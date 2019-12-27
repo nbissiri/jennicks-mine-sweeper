@@ -1,10 +1,10 @@
 #ifndef MINE_H
 #define MINE_H
-#include "GridPosition.h"
+#include "Tile.h"
 
 /* 
  */
-class Mine : GridPosition
+class Mine : Tile
 {
 public:
     Mine();

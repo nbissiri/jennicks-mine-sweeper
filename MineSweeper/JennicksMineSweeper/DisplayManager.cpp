@@ -1,13 +1,13 @@
 #include "DisplayManager.h"
 
 void DisplayManager::update_view() {
-    for (GridPosition *p : updated_positions) {
+    for (Tile *p : updated_positions) {
         // update the view at this position
     }
 }
 
-void DisplayManager::display_position(GridPosition *p) {
+void DisplayManager::display_position(Tile *p) {
     DisplayManager::updated_positions.push_back(p);
 }
 
-std::vector<GridPosition*> DisplayManager::updated_positions {};
+std::vector<Tile*> DisplayManager::updated_positions {};

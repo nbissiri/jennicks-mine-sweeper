@@ -1,8 +1,8 @@
 #ifndef NUMBEREDSPOT_H
 #define NUMBEREDSPOT_H
-#include "GridPosition.h"
+#include "Tile.h"
 
-class NumberedSpot : public GridPosition
+class NumberedSpot : public Tile
 {
 public:
     NumberedSpot();
