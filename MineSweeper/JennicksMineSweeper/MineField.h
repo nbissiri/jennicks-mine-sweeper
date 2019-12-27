@@ -1,5 +1,5 @@
-#ifndef MINEFIELD_H
-#define MINEFIELD_H
+#ifndef MINE_FIELD_H
+#define MINE_FIELD_H
 
 
 /* MineField defines the grid and field of play for a game of MineSweeper. 
@@ -15,4 +15,4 @@ public:
     ~MineField();
 };
 
-#endif // MINEFIELD_H
+#endif // MINE_FIELD_H

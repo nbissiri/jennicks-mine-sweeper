@@ -1,1 +1,1 @@
-./Debug/MineField.cpp.o ./Debug/Mine.cpp.o ./Debug/DisplayManager.cpp.o ./Debug/main.cpp.o ./Debug/Tile.cpp.o ./Debug/EmptySpot.cpp.o ./Debug/NumberedSpot.cpp.o   
+./Debug/MineField.cpp.o ./Debug/Mine.cpp.o ./Debug/NumberedTile.cpp.o ./Debug/DisplayManager.cpp.o ./Debug/main.cpp.o ./Debug/Tile.cpp.o ./Debug/EmptyTile.cpp.o   

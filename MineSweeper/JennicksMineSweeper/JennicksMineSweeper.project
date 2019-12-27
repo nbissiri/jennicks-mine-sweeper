@@ -98,12 +98,12 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="NumberedTile.cpp"/>
+    <File Name="NumberedTile.h"/>
+    <File Name="EmptyTile.cpp"/>
+    <File Name="EmptyTile.h"/>
     <File Name="Tile.h"/>
     <File Name="Tile.cpp"/>
-    <File Name="EmptySpot.cpp"/>
-    <File Name="EmptySpot.h"/>
-    <File Name="NumberedSpot.cpp"/>
-    <File Name="NumberedSpot.h"/>
     <File Name="DisplayManager.cpp"/>
     <File Name="DisplayManager.h"/>
     <File Name="Mine.cpp"/>

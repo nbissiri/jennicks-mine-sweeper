@@ -1,5 +1,5 @@
-#ifndef DISPLAYMANAGER_H
-#define DISPLAYMANAGER_H
+#ifndef DISPLAY_MANAGER_H
+#define DISPLAY_MANAGER_H
 #include <vector>
 #include "Tile.h"
 
@@ -17,4 +17,4 @@ public:
     static void update_view();
 };
 
-#endif // DISPLAYMANAGER_H
+#endif // DISPLAY_MANAGER_H
