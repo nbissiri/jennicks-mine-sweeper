@@ -1,6 +1,10 @@
 #include "Tile.h"
 #include "DisplayManager.h"
 
+Tile::Tile(size_t x, size_t y) 
+    : vis(hidden), x(x), y(y)
+{
+}
 
 bool Tile::flag() {
     bool changed {false};
@@ -36,14 +40,14 @@ Tile::visibility Tile::get_visibility() {
     return this->vis;
 }
 
-std::pair<int, int> Tile::get_coords() {
+std::pair<size_t, size_t> Tile::get_coords() {
     return std::pair {this->x, this->y};
 }
 
-int Tile::get_x() {
+size_t Tile::get_x() {
     return this->x;
 }
 
-int Tile::get_y() {
+size_t Tile::get_y() {
     return this->y;
 }

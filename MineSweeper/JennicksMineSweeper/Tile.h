@@ -1,6 +1,7 @@
 #ifndef TILE_H
 #define TILE_H
 #include <utility>
+#include <cstddef>
 
 /* Tile is an abstract class
  */
@@ -8,13 +9,15 @@ class Tile {
     
 public: enum visibility {hidden, revealed, flagged, questioned};
 
-private:
+protected:
     visibility vis;
-    
+
     // x and y coordinates
-    int x;
-    int y;
+    size_t x;
+    size_t y;
 public:
+
+    Tile(size_t x, size_t y);
 
     // reveal this position on the grid
     // return true if successfully revealed, false otherwise
@@ -35,13 +38,13 @@ public:
     visibility get_visibility();
     
     // get the 0-indexed x, y coordinates of this position on the grid
-    std::pair<int, int> get_coords();
+    std::pair<size_t, size_t> get_coords();
     
     // get the 0-indexed x coordinate of this position
-    int get_x();
+    size_t get_x();
     
     // get the 0-indexed y coordinate of this position
-    int get_y();
+    size_t get_y();
     
 };
 

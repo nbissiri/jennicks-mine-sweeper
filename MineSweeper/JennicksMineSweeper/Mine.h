@@ -7,8 +7,7 @@
 class Mine : Tile
 {
 public:
-    Mine();
-    ~Mine();
+    Mine(size_t x, size_t y);
 
 };
 

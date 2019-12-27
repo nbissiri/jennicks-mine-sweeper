@@ -4,10 +4,10 @@
 
 class NumberedTile : public Tile
 {
+private:
+    int adjacent_mines;
 public:
-    NumberedTile();
-    ~NumberedTile();
-
+    NumberedTile(size_t x, size_t y, int adjacent_mines);
 };
 
 #endif // NUMBERED_TILE_H
